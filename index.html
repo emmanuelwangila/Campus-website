@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="widh=device-width, initial-scale=1.0">
+    <title> University Website Design Wangila</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;1,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="header">  
+        <nav>
+            <a href="index.html"><img src=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-window-close" onclick="hideMenu()" ></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">COURSE</a></li>
+                    <li><a href="">BLOG</a></li>
+                    <li><a href="">CONTACT</a></li>
+
+    
+                </ul>
+            </div>
+            <i class="fa fa-bars" ></i>
+        </nav>
+     <div class="text-box">
+         <h1>World's Best University</h1>
+         <p>Making a Website is not as hard as you may think
+             this is Emmanuel Wangila's website,<br> you need bold 
+             understanding of JS,CSS and HTML5
+         </p>
+         <a href="" class="hero-btn">Visit Us To Know More</a>
+     </div>   
+        
+    </section>
+    <!----Course------->
+    <section class="couse">
+        <h1>Courses we offer</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+        <div class="row">
+            <div class="course-col">
+
+                <h3>Diploma</h3>
+                <p> This are the courses offered in this University,
+                    where Learning is Excellence,would love you to join Us</p>
+            </div>
+            <div class="course-col">
+                <h3>Degree</h3>
+                <p> This are the courses offered in this University,
+                    where Learning is Excellence,would love you to join Us</p>
+            </div>
+            <div class="course-col">
+                <h3>Post-Graduate</h3>
+                <p> This are the courses offered in this University,
+                    where Learning is Excellence,would love you to join Us</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="campus">
+        <h1>Our Global Campus</h1>
+        <p>Knowledge and Excellence for soaring Heights and Innovation</p>
+
+        <div class="row">
+            <div class="campus-col">
+                <img src="C:\Users\EMMANUEL\Downloads\graduate.jpg" alt="campus"width="1000" height="800" >
+                <div class="layer">
+                    <h3>NAIROBI</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="facilities">
+        <h1>Our facilities</h1>
+        <p> We have the best facilities and services
+            offered to all the students in our campus
+        </P>
+
+        <div class="row">
+            <div class="facilities-col">
+                <img src="C:\Users\EMMANUEL\Downloads\football.jpg" alt="field" width="200" height="200">
+                <h3>Largest Playground</h3>
+                <p>We have a large playing field in our
+                    camous where all sports activities takes place
+                    and all extra curicullar activities happen.
+                </p>
+            </div>
+
+            <div class="facilities-col">
+                <img src="C:\Users\EMMANUEL\Downloads\book.jpg" alt="library" width="200" height="200">
+                <h3>Best Library</h3>
+                <p>IN our Library there are a variety of 
+                    different books and journals for students to
+                    learn and imrove their academic studies.
+                </p>
+            </div>
+
+            <div class="facilities-col">
+                <img src="C:\Users\EMMANUEL\Downloads\laboratory.jpg"alt="lab" width="200" height="200">
+                <h3>Research Stations</h3>
+                <p>Our research stations for students persuing
+                    engineering and technical courses enable the students
+                    to better their practical skills and imrove perfomance.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!---------Testimonials------->
+
+    <section class="testimonials">
+        <h1>What Students Say abut Us</h1>
+        <p>You can have a look at our alumni students
+            who have been in our campus and wht their
+            experience has beein in our campus.
+        </p>
+
+        <div class="row">
+            <div class="testimonial-col">
+                <img src="C:\Users\EMMANUEL\Downloads\samuel.jpg">
+                <div>
+                    <p>This is one of the best experiences 
+                        I have had in this campus detailed lectures
+                        and World class learning facilities
+                    </p>
+                    <h3>Samuel David</h3>
+                </div>
+            </div>
+
+            <div class="testimonial-col">
+                <img src="C:\Users\EMMANUEL\Downloads\jane.jpg">
+                <div>
+                    <p>My experiencein this campus is 
+                        the best and what I love the most is 
+                        impact and the integriry in the institution,
+                        i would reccomend anyone to join us and have
+                        the best experience.
+                    </p>
+                    <h3>Jane Weddy</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!------------Call To Action-->
+
+    <section class="cta">
+        <h1>Enroll for the various courses<br>
+             in our campus Worldwide</h1>
+
+        <a href="" class="hero-btn">CONTACT US</a>
+
+
+    </section>
+    <!----------Footer-->
+    <section class="footer">
+       <h4>Abou Us</h4> 
+       <p>We are a World Class University offering <br>diploma,
+           Undergraduate and Post-Graduate studies globally
+        to all our beloved students Worldwide. </p>
+
+        <div class="icons">
+            <i  class="fa fa-facebook"></i>
+            <i  class="fa fa-twitter"></i>
+            <i  class="fa fa-instagram-square"></i>
+            <i  class="fa fa-linkedin"></i>
+        </div>
+        <p>Mde by <i  class="fa fa-heart-o"></i>Emmanuel Wangila </p>
+    </section>
+
+    
+    <!--Java Script for Toggle Menu-->
+    <script>
+        var navLinks =document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+</body>
+</html>

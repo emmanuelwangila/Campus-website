@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="widh=device-width, initial-scale=1.0">
+    <title> University Website Design Wangila</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;1,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="header">  
+        <nav>
+            <a href="index.html"><img src=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-window-close" onclick="hideMenu()" ></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">COURSE</a></li>
+                    <li><a href="">BLOG</a></li>
+                    <li><a href="">CONTACT</a></li>
+
+    
+                </ul>
+            </div>
+            <i class="fa fa-bars" ></i>
+        </nav>
+     <div class="text-box">
+         <h1>World's Best University</h1>
+         <p>Making a Website is not as hard as you may think
+             this is Emmanuel Wangila's website,<br> you need bold 
+             understanding of JS,CSS and HTML5
+         </p>
+         <a href="" class="hero-btn">Visit Us To Know More</a>
+     </div>   
+        
+    </section>
+    <!----Course------->
+    <section class="couse">
+        <h1>Courses we offer</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+        <div class="row">
+            <div class="course-col">
+
+                <h3>Diploma</h3>
+                <p> This are the courses offered in this University,
+                    where Learning is Excellence,would love you to join Us</p>
+            </div>
+            <div class="course-col">
+                <h3>Degree</h3>
+                <p> This are the courses offered in this University,
+                    where Learning is Excellence,would love you to join Us</p>
+            </div>
+            <div class="course-col">
+                <h3>Post-Graduate</h3>
+                <p> This are the courses offered in this University,
+                    where Learning is Excellence,would love you to join Us</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="campus">
+        <h1>Our Global Campus</h1>
+        <p>Knowledge and Excellence for soaring Heights and Innovation</p>
+
+        <div class="row">
+            <div class="campus-col">
+                <img src="C:\Users\EMMANUEL\Downloads\global.jpg" alt="campus"width="1000" height="800" >
+                <div class="layer">
+                    <h3>NAIROBI</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="facilities">
+        <h1>Our facilities</h1>
+        <p> We have the best facilities and services
+            offered to all the students in our campus
+        </P>
+
+        <div class="row">
+            <div class="facilities-col">
+                <img src="">
+                <h3>Largest Playground</h3>
+            </div>
+
+            <div class="facilities-col">
+                <img src="">
+                <h3>Best Library</h3>
+            </div>
+
+            <div class="facilities-col">
+                <img src="">
+                <h3>Research Stations</h3>
+            </div>
+        </div>
+    </section>
+    <!--Java Script for Toggle Menu-->
+    <script>
+        var navLinks =document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+</body>
+</html>
